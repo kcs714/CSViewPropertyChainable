@@ -1,0 +1,729 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		021744B91FBDF0D9000A0B4F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 021744B81FBDF0D9000A0B4F /* AppDelegate.m */; };
+		021744BC1FBDF0D9000A0B4F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 021744BB1FBDF0D9000A0B4F /* ViewController.m */; };
+		021744BF1FBDF0D9000A0B4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 021744BD1FBDF0D9000A0B4F /* Main.storyboard */; };
+		021744C11FBDF0D9000A0B4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 021744C01FBDF0D9000A0B4F /* Assets.xcassets */; };
+		021744C41FBDF0D9000A0B4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 021744C21FBDF0D9000A0B4F /* LaunchScreen.storyboard */; };
+		021744C71FBDF0D9000A0B4F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 021744C61FBDF0D9000A0B4F /* main.m */; };
+		021744D11FBDF0D9000A0B4F /* CSViewPropertyChainableTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 021744D01FBDF0D9000A0B4F /* CSViewPropertyChainableTests.m */; };
+		021744DC1FBDF0D9000A0B4F /* CSViewPropertyChainableUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 021744DB1FBDF0D9000A0B4F /* CSViewPropertyChainableUITests.m */; };
+		0217456E1FBE7342000A0B4F /* UIView+CSAddBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 021745691FBE72EA000A0B4F /* UIView+CSAddBlock.m */; };
+		021745701FBE7342000A0B4F /* UIView+CSCreation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0217456B1FBE72EA000A0B4F /* UIView+CSCreation.m */; };
+		021745721FBE735A000A0B4F /* CSPropertyManager+Button.m in Sources */ = {isa = PBXBuildFile; fileRef = 0217454A1FBE72EA000A0B4F /* CSPropertyManager+Button.m */; };
+		021745741FBE735A000A0B4F /* CSPropertyManager+Control.m in Sources */ = {isa = PBXBuildFile; fileRef = 0217454C1FBE72EA000A0B4F /* CSPropertyManager+Control.m */; };
+		021745761FBE735A000A0B4F /* CSPropertyManager+DatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 0217454E1FBE72EA000A0B4F /* CSPropertyManager+DatePicker.m */; };
+		021745781FBE735A000A0B4F /* CSPropertyManager+ImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 021745501FBE72EA000A0B4F /* CSPropertyManager+ImageView.m */; };
+		0217457A1FBE735A000A0B4F /* CSPropertyManager+Label.m in Sources */ = {isa = PBXBuildFile; fileRef = 021745521FBE72EA000A0B4F /* CSPropertyManager+Label.m */; };
+		0217457C1FBE735A000A0B4F /* CSPropertyManager+PageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 021745541FBE72EA000A0B4F /* CSPropertyManager+PageControl.m */; };
+		0217457E1FBE735A000A0B4F /* CSPropertyManager+ScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 021745561FBE72EA000A0B4F /* CSPropertyManager+ScrollView.m */; };
+		021745801FBE735A000A0B4F /* CSPropertyManager+Slider.m in Sources */ = {isa = PBXBuildFile; fileRef = 021745581FBE72EA000A0B4F /* CSPropertyManager+Slider.m */; };
+		021745821FBE735A000A0B4F /* CSPropertyManager+Switch.m in Sources */ = {isa = PBXBuildFile; fileRef = 0217455A1FBE72EA000A0B4F /* CSPropertyManager+Switch.m */; };
+		021745841FBE735A000A0B4F /* CSPropertyManager+TableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0217455C1FBE72EA000A0B4F /* CSPropertyManager+TableView.m */; };
+		021745861FBE735A000A0B4F /* CSPropertyManager+TextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 0217455E1FBE72EA000A0B4F /* CSPropertyManager+TextField.m */; };
+		021745881FBE735A000A0B4F /* CSPropertyManager+View.m in Sources */ = {isa = PBXBuildFile; fileRef = 021745601FBE72EA000A0B4F /* CSPropertyManager+View.m */; };
+		0217458A1FBE735A000A0B4F /* CSPropertyManager+Webview.m in Sources */ = {isa = PBXBuildFile; fileRef = 021745621FBE72EA000A0B4F /* CSPropertyManager+Webview.m */; };
+		0217458C1FBE735A000A0B4F /* CSPropertyManager+Window.m in Sources */ = {isa = PBXBuildFile; fileRef = 021745641FBE72EA000A0B4F /* CSPropertyManager+Window.m */; };
+		0217458E1FBE735A000A0B4F /* CSPropertyManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 021745661FBE72EA000A0B4F /* CSPropertyManager.m */; };
+		021745901FBE73E8000A0B4F /* CSGestureManager+LongPress.m in Sources */ = {isa = PBXBuildFile; fileRef = 0217453B1FBE72EA000A0B4F /* CSGestureManager+LongPress.m */; };
+		021745921FBE73E8000A0B4F /* CSGestureManager+Pinch.m in Sources */ = {isa = PBXBuildFile; fileRef = 0217453D1FBE72EA000A0B4F /* CSGestureManager+Pinch.m */; };
+		021745941FBE73E8000A0B4F /* CSGestureManager+Rotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0217453F1FBE72EA000A0B4F /* CSGestureManager+Rotation.m */; };
+		021745961FBE73E8000A0B4F /* CSGestureManager+ScreenEdgePan.m in Sources */ = {isa = PBXBuildFile; fileRef = 021745411FBE72EA000A0B4F /* CSGestureManager+ScreenEdgePan.m */; };
+		021745981FBE73E8000A0B4F /* CSGestureManager+Swipe.m in Sources */ = {isa = PBXBuildFile; fileRef = 021745431FBE72EA000A0B4F /* CSGestureManager+Swipe.m */; };
+		0217459A1FBE73E8000A0B4F /* CSGestureManager+Tap.m in Sources */ = {isa = PBXBuildFile; fileRef = 021745451FBE72EA000A0B4F /* CSGestureManager+Tap.m */; };
+		0217459C1FBE73E8000A0B4F /* CSGestureManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 021745471FBE72EA000A0B4F /* CSGestureManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		021744CD1FBDF0D9000A0B4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 021744AC1FBDF0D8000A0B4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 021744B31FBDF0D9000A0B4F;
+			remoteInfo = CSViewPropertyChainable;
+		};
+		021744D81FBDF0D9000A0B4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 021744AC1FBDF0D8000A0B4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 021744B31FBDF0D9000A0B4F;
+			remoteInfo = CSViewPropertyChainable;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		021744B41FBDF0D9000A0B4F /* CSViewPropertyChainable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CSViewPropertyChainable.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		021744B71FBDF0D9000A0B4F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		021744B81FBDF0D9000A0B4F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		021744BA1FBDF0D9000A0B4F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		021744BB1FBDF0D9000A0B4F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		021744BE1FBDF0D9000A0B4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		021744C01FBDF0D9000A0B4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		021744C31FBDF0D9000A0B4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		021744C51FBDF0D9000A0B4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		021744C61FBDF0D9000A0B4F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		021744CC1FBDF0D9000A0B4F /* CSViewPropertyChainableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CSViewPropertyChainableTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		021744D01FBDF0D9000A0B4F /* CSViewPropertyChainableTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSViewPropertyChainableTests.m; sourceTree = "<group>"; };
+		021744D21FBDF0D9000A0B4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		021744D71FBDF0D9000A0B4F /* CSViewPropertyChainableUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CSViewPropertyChainableUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		021744DB1FBDF0D9000A0B4F /* CSViewPropertyChainableUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSViewPropertyChainableUITests.m; sourceTree = "<group>"; };
+		021744DD1FBDF0D9000A0B4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		021745381FBE72EA000A0B4F /* CSCreation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSCreation.h; sourceTree = "<group>"; };
+		0217453A1FBE72EA000A0B4F /* CSGestureManager+LongPress.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CSGestureManager+LongPress.h"; sourceTree = "<group>"; };
+		0217453B1FBE72EA000A0B4F /* CSGestureManager+LongPress.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CSGestureManager+LongPress.m"; sourceTree = "<group>"; };
+		0217453C1FBE72EA000A0B4F /* CSGestureManager+Pinch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CSGestureManager+Pinch.h"; sourceTree = "<group>"; };
+		0217453D1FBE72EA000A0B4F /* CSGestureManager+Pinch.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CSGestureManager+Pinch.m"; sourceTree = "<group>"; };
+		0217453E1FBE72EA000A0B4F /* CSGestureManager+Rotation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CSGestureManager+Rotation.h"; sourceTree = "<group>"; };
+		0217453F1FBE72EA000A0B4F /* CSGestureManager+Rotation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CSGestureManager+Rotation.m"; sourceTree = "<group>"; };
+		021745401FBE72EA000A0B4F /* CSGestureManager+ScreenEdgePan.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CSGestureManager+ScreenEdgePan.h"; sourceTree = "<group>"; };
+		021745411FBE72EA000A0B4F /* CSGestureManager+ScreenEdgePan.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CSGestureManager+ScreenEdgePan.m"; sourceTree = "<group>"; };
+		021745421FBE72EA000A0B4F /* CSGestureManager+Swipe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CSGestureManager+Swipe.h"; sourceTree = "<group>"; };
+		021745431FBE72EA000A0B4F /* CSGestureManager+Swipe.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CSGestureManager+Swipe.m"; sourceTree = "<group>"; };
+		021745441FBE72EA000A0B4F /* CSGestureManager+Tap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CSGestureManager+Tap.h"; sourceTree = "<group>"; };
+		021745451FBE72EA000A0B4F /* CSGestureManager+Tap.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CSGestureManager+Tap.m"; sourceTree = "<group>"; };
+		021745461FBE72EA000A0B4F /* CSGestureManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSGestureManager.h; sourceTree = "<group>"; };
+		021745471FBE72EA000A0B4F /* CSGestureManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSGestureManager.m; sourceTree = "<group>"; };
+		021745491FBE72EA000A0B4F /* CSPropertyManager+Button.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CSPropertyManager+Button.h"; sourceTree = "<group>"; };
+		0217454A1FBE72EA000A0B4F /* CSPropertyManager+Button.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CSPropertyManager+Button.m"; sourceTree = "<group>"; };
+		0217454B1FBE72EA000A0B4F /* CSPropertyManager+Control.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CSPropertyManager+Control.h"; sourceTree = "<group>"; };
+		0217454C1FBE72EA000A0B4F /* CSPropertyManager+Control.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CSPropertyManager+Control.m"; sourceTree = "<group>"; };
+		0217454D1FBE72EA000A0B4F /* CSPropertyManager+DatePicker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CSPropertyManager+DatePicker.h"; sourceTree = "<group>"; };
+		0217454E1FBE72EA000A0B4F /* CSPropertyManager+DatePicker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CSPropertyManager+DatePicker.m"; sourceTree = "<group>"; };
+		0217454F1FBE72EA000A0B4F /* CSPropertyManager+ImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CSPropertyManager+ImageView.h"; sourceTree = "<group>"; };
+		021745501FBE72EA000A0B4F /* CSPropertyManager+ImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CSPropertyManager+ImageView.m"; sourceTree = "<group>"; };
+		021745511FBE72EA000A0B4F /* CSPropertyManager+Label.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CSPropertyManager+Label.h"; sourceTree = "<group>"; };
+		021745521FBE72EA000A0B4F /* CSPropertyManager+Label.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CSPropertyManager+Label.m"; sourceTree = "<group>"; };
+		021745531FBE72EA000A0B4F /* CSPropertyManager+PageControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CSPropertyManager+PageControl.h"; sourceTree = "<group>"; };
+		021745541FBE72EA000A0B4F /* CSPropertyManager+PageControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CSPropertyManager+PageControl.m"; sourceTree = "<group>"; };
+		021745551FBE72EA000A0B4F /* CSPropertyManager+ScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CSPropertyManager+ScrollView.h"; sourceTree = "<group>"; };
+		021745561FBE72EA000A0B4F /* CSPropertyManager+ScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CSPropertyManager+ScrollView.m"; sourceTree = "<group>"; };
+		021745571FBE72EA000A0B4F /* CSPropertyManager+Slider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CSPropertyManager+Slider.h"; sourceTree = "<group>"; };
+		021745581FBE72EA000A0B4F /* CSPropertyManager+Slider.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CSPropertyManager+Slider.m"; sourceTree = "<group>"; };
+		021745591FBE72EA000A0B4F /* CSPropertyManager+Switch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CSPropertyManager+Switch.h"; sourceTree = "<group>"; };
+		0217455A1FBE72EA000A0B4F /* CSPropertyManager+Switch.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CSPropertyManager+Switch.m"; sourceTree = "<group>"; };
+		0217455B1FBE72EA000A0B4F /* CSPropertyManager+TableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CSPropertyManager+TableView.h"; sourceTree = "<group>"; };
+		0217455C1FBE72EA000A0B4F /* CSPropertyManager+TableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CSPropertyManager+TableView.m"; sourceTree = "<group>"; };
+		0217455D1FBE72EA000A0B4F /* CSPropertyManager+TextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CSPropertyManager+TextField.h"; sourceTree = "<group>"; };
+		0217455E1FBE72EA000A0B4F /* CSPropertyManager+TextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CSPropertyManager+TextField.m"; sourceTree = "<group>"; };
+		0217455F1FBE72EA000A0B4F /* CSPropertyManager+View.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CSPropertyManager+View.h"; sourceTree = "<group>"; };
+		021745601FBE72EA000A0B4F /* CSPropertyManager+View.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CSPropertyManager+View.m"; sourceTree = "<group>"; };
+		021745611FBE72EA000A0B4F /* CSPropertyManager+Webview.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CSPropertyManager+Webview.h"; sourceTree = "<group>"; };
+		021745621FBE72EA000A0B4F /* CSPropertyManager+Webview.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CSPropertyManager+Webview.m"; sourceTree = "<group>"; };
+		021745631FBE72EA000A0B4F /* CSPropertyManager+Window.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CSPropertyManager+Window.h"; sourceTree = "<group>"; };
+		021745641FBE72EA000A0B4F /* CSPropertyManager+Window.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CSPropertyManager+Window.m"; sourceTree = "<group>"; };
+		021745651FBE72EA000A0B4F /* CSPropertyManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSPropertyManager.h; sourceTree = "<group>"; };
+		021745661FBE72EA000A0B4F /* CSPropertyManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSPropertyManager.m; sourceTree = "<group>"; };
+		021745681FBE72EA000A0B4F /* UIView+CSAddBlock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+CSAddBlock.h"; sourceTree = "<group>"; };
+		021745691FBE72EA000A0B4F /* UIView+CSAddBlock.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+CSAddBlock.m"; sourceTree = "<group>"; };
+		0217456A1FBE72EA000A0B4F /* UIView+CSCreation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+CSCreation.h"; sourceTree = "<group>"; };
+		0217456B1FBE72EA000A0B4F /* UIView+CSCreation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+CSCreation.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		021744B11FBDF0D9000A0B4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		021744C91FBDF0D9000A0B4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		021744D41FBDF0D9000A0B4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		021744AB1FBDF0D8000A0B4F = {
+			isa = PBXGroup;
+			children = (
+				021744B61FBDF0D9000A0B4F /* CSViewPropertyChainable */,
+				021744CF1FBDF0D9000A0B4F /* CSViewPropertyChainableTests */,
+				021744DA1FBDF0D9000A0B4F /* CSViewPropertyChainableUITests */,
+				021744B51FBDF0D9000A0B4F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		021744B51FBDF0D9000A0B4F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				021744B41FBDF0D9000A0B4F /* CSViewPropertyChainable.app */,
+				021744CC1FBDF0D9000A0B4F /* CSViewPropertyChainableTests.xctest */,
+				021744D71FBDF0D9000A0B4F /* CSViewPropertyChainableUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		021744B61FBDF0D9000A0B4F /* CSViewPropertyChainable */ = {
+			isa = PBXGroup;
+			children = (
+				021745371FBE72EA000A0B4F /* ViewPropertyChainable */,
+				021744B71FBDF0D9000A0B4F /* AppDelegate.h */,
+				021744B81FBDF0D9000A0B4F /* AppDelegate.m */,
+				021744BA1FBDF0D9000A0B4F /* ViewController.h */,
+				021744BB1FBDF0D9000A0B4F /* ViewController.m */,
+				021744BD1FBDF0D9000A0B4F /* Main.storyboard */,
+				021744C01FBDF0D9000A0B4F /* Assets.xcassets */,
+				021744C21FBDF0D9000A0B4F /* LaunchScreen.storyboard */,
+				021744C51FBDF0D9000A0B4F /* Info.plist */,
+				021744C61FBDF0D9000A0B4F /* main.m */,
+			);
+			path = CSViewPropertyChainable;
+			sourceTree = "<group>";
+		};
+		021744CF1FBDF0D9000A0B4F /* CSViewPropertyChainableTests */ = {
+			isa = PBXGroup;
+			children = (
+				021744D01FBDF0D9000A0B4F /* CSViewPropertyChainableTests.m */,
+				021744D21FBDF0D9000A0B4F /* Info.plist */,
+			);
+			path = CSViewPropertyChainableTests;
+			sourceTree = "<group>";
+		};
+		021744DA1FBDF0D9000A0B4F /* CSViewPropertyChainableUITests */ = {
+			isa = PBXGroup;
+			children = (
+				021744DB1FBDF0D9000A0B4F /* CSViewPropertyChainableUITests.m */,
+				021744DD1FBDF0D9000A0B4F /* Info.plist */,
+			);
+			path = CSViewPropertyChainableUITests;
+			sourceTree = "<group>";
+		};
+		021745371FBE72EA000A0B4F /* ViewPropertyChainable */ = {
+			isa = PBXGroup;
+			children = (
+				021745381FBE72EA000A0B4F /* CSCreation.h */,
+				021745391FBE72EA000A0B4F /* CSGestureManager */,
+				021745481FBE72EA000A0B4F /* CSPropertyManager */,
+				021745671FBE72EA000A0B4F /* UIView */,
+			);
+			path = ViewPropertyChainable;
+			sourceTree = "<group>";
+		};
+		021745391FBE72EA000A0B4F /* CSGestureManager */ = {
+			isa = PBXGroup;
+			children = (
+				0217453A1FBE72EA000A0B4F /* CSGestureManager+LongPress.h */,
+				0217453B1FBE72EA000A0B4F /* CSGestureManager+LongPress.m */,
+				0217453C1FBE72EA000A0B4F /* CSGestureManager+Pinch.h */,
+				0217453D1FBE72EA000A0B4F /* CSGestureManager+Pinch.m */,
+				0217453E1FBE72EA000A0B4F /* CSGestureManager+Rotation.h */,
+				0217453F1FBE72EA000A0B4F /* CSGestureManager+Rotation.m */,
+				021745401FBE72EA000A0B4F /* CSGestureManager+ScreenEdgePan.h */,
+				021745411FBE72EA000A0B4F /* CSGestureManager+ScreenEdgePan.m */,
+				021745421FBE72EA000A0B4F /* CSGestureManager+Swipe.h */,
+				021745431FBE72EA000A0B4F /* CSGestureManager+Swipe.m */,
+				021745441FBE72EA000A0B4F /* CSGestureManager+Tap.h */,
+				021745451FBE72EA000A0B4F /* CSGestureManager+Tap.m */,
+				021745461FBE72EA000A0B4F /* CSGestureManager.h */,
+				021745471FBE72EA000A0B4F /* CSGestureManager.m */,
+			);
+			path = CSGestureManager;
+			sourceTree = "<group>";
+		};
+		021745481FBE72EA000A0B4F /* CSPropertyManager */ = {
+			isa = PBXGroup;
+			children = (
+				021745491FBE72EA000A0B4F /* CSPropertyManager+Button.h */,
+				0217454A1FBE72EA000A0B4F /* CSPropertyManager+Button.m */,
+				0217454B1FBE72EA000A0B4F /* CSPropertyManager+Control.h */,
+				0217454C1FBE72EA000A0B4F /* CSPropertyManager+Control.m */,
+				0217454D1FBE72EA000A0B4F /* CSPropertyManager+DatePicker.h */,
+				0217454E1FBE72EA000A0B4F /* CSPropertyManager+DatePicker.m */,
+				0217454F1FBE72EA000A0B4F /* CSPropertyManager+ImageView.h */,
+				021745501FBE72EA000A0B4F /* CSPropertyManager+ImageView.m */,
+				021745511FBE72EA000A0B4F /* CSPropertyManager+Label.h */,
+				021745521FBE72EA000A0B4F /* CSPropertyManager+Label.m */,
+				021745531FBE72EA000A0B4F /* CSPropertyManager+PageControl.h */,
+				021745541FBE72EA000A0B4F /* CSPropertyManager+PageControl.m */,
+				021745551FBE72EA000A0B4F /* CSPropertyManager+ScrollView.h */,
+				021745561FBE72EA000A0B4F /* CSPropertyManager+ScrollView.m */,
+				021745571FBE72EA000A0B4F /* CSPropertyManager+Slider.h */,
+				021745581FBE72EA000A0B4F /* CSPropertyManager+Slider.m */,
+				021745591FBE72EA000A0B4F /* CSPropertyManager+Switch.h */,
+				0217455A1FBE72EA000A0B4F /* CSPropertyManager+Switch.m */,
+				0217455B1FBE72EA000A0B4F /* CSPropertyManager+TableView.h */,
+				0217455C1FBE72EA000A0B4F /* CSPropertyManager+TableView.m */,
+				0217455D1FBE72EA000A0B4F /* CSPropertyManager+TextField.h */,
+				0217455E1FBE72EA000A0B4F /* CSPropertyManager+TextField.m */,
+				0217455F1FBE72EA000A0B4F /* CSPropertyManager+View.h */,
+				021745601FBE72EA000A0B4F /* CSPropertyManager+View.m */,
+				021745611FBE72EA000A0B4F /* CSPropertyManager+Webview.h */,
+				021745621FBE72EA000A0B4F /* CSPropertyManager+Webview.m */,
+				021745631FBE72EA000A0B4F /* CSPropertyManager+Window.h */,
+				021745641FBE72EA000A0B4F /* CSPropertyManager+Window.m */,
+				021745651FBE72EA000A0B4F /* CSPropertyManager.h */,
+				021745661FBE72EA000A0B4F /* CSPropertyManager.m */,
+			);
+			path = CSPropertyManager;
+			sourceTree = "<group>";
+		};
+		021745671FBE72EA000A0B4F /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				021745681FBE72EA000A0B4F /* UIView+CSAddBlock.h */,
+				021745691FBE72EA000A0B4F /* UIView+CSAddBlock.m */,
+				0217456A1FBE72EA000A0B4F /* UIView+CSCreation.h */,
+				0217456B1FBE72EA000A0B4F /* UIView+CSCreation.m */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		021744B31FBDF0D9000A0B4F /* CSViewPropertyChainable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 021744E01FBDF0D9000A0B4F /* Build configuration list for PBXNativeTarget "CSViewPropertyChainable" */;
+			buildPhases = (
+				021744B01FBDF0D9000A0B4F /* Sources */,
+				021744B11FBDF0D9000A0B4F /* Frameworks */,
+				021744B21FBDF0D9000A0B4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CSViewPropertyChainable;
+			productName = CSViewPropertyChainable;
+			productReference = 021744B41FBDF0D9000A0B4F /* CSViewPropertyChainable.app */;
+			productType = "com.apple.product-type.application";
+		};
+		021744CB1FBDF0D9000A0B4F /* CSViewPropertyChainableTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 021744E31FBDF0D9000A0B4F /* Build configuration list for PBXNativeTarget "CSViewPropertyChainableTests" */;
+			buildPhases = (
+				021744C81FBDF0D9000A0B4F /* Sources */,
+				021744C91FBDF0D9000A0B4F /* Frameworks */,
+				021744CA1FBDF0D9000A0B4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				021744CE1FBDF0D9000A0B4F /* PBXTargetDependency */,
+			);
+			name = CSViewPropertyChainableTests;
+			productName = CSViewPropertyChainableTests;
+			productReference = 021744CC1FBDF0D9000A0B4F /* CSViewPropertyChainableTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		021744D61FBDF0D9000A0B4F /* CSViewPropertyChainableUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 021744E61FBDF0D9000A0B4F /* Build configuration list for PBXNativeTarget "CSViewPropertyChainableUITests" */;
+			buildPhases = (
+				021744D31FBDF0D9000A0B4F /* Sources */,
+				021744D41FBDF0D9000A0B4F /* Frameworks */,
+				021744D51FBDF0D9000A0B4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				021744D91FBDF0D9000A0B4F /* PBXTargetDependency */,
+			);
+			name = CSViewPropertyChainableUITests;
+			productName = CSViewPropertyChainableUITests;
+			productReference = 021744D71FBDF0D9000A0B4F /* CSViewPropertyChainableUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		021744AC1FBDF0D8000A0B4F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = KCS;
+				TargetAttributes = {
+					021744B31FBDF0D9000A0B4F = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					021744CB1FBDF0D9000A0B4F = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 021744B31FBDF0D9000A0B4F;
+					};
+					021744D61FBDF0D9000A0B4F = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 021744B31FBDF0D9000A0B4F;
+					};
+				};
+			};
+			buildConfigurationList = 021744AF1FBDF0D8000A0B4F /* Build configuration list for PBXProject "CSViewPropertyChainable" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 021744AB1FBDF0D8000A0B4F;
+			productRefGroup = 021744B51FBDF0D9000A0B4F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				021744B31FBDF0D9000A0B4F /* CSViewPropertyChainable */,
+				021744CB1FBDF0D9000A0B4F /* CSViewPropertyChainableTests */,
+				021744D61FBDF0D9000A0B4F /* CSViewPropertyChainableUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		021744B21FBDF0D9000A0B4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				021744C41FBDF0D9000A0B4F /* LaunchScreen.storyboard in Resources */,
+				021744C11FBDF0D9000A0B4F /* Assets.xcassets in Resources */,
+				021744BF1FBDF0D9000A0B4F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		021744CA1FBDF0D9000A0B4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		021744D51FBDF0D9000A0B4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		021744B01FBDF0D9000A0B4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				021745901FBE73E8000A0B4F /* CSGestureManager+LongPress.m in Sources */,
+				021745921FBE73E8000A0B4F /* CSGestureManager+Pinch.m in Sources */,
+				021745941FBE73E8000A0B4F /* CSGestureManager+Rotation.m in Sources */,
+				021745961FBE73E8000A0B4F /* CSGestureManager+ScreenEdgePan.m in Sources */,
+				021745981FBE73E8000A0B4F /* CSGestureManager+Swipe.m in Sources */,
+				0217459A1FBE73E8000A0B4F /* CSGestureManager+Tap.m in Sources */,
+				0217459C1FBE73E8000A0B4F /* CSGestureManager.m in Sources */,
+				021745721FBE735A000A0B4F /* CSPropertyManager+Button.m in Sources */,
+				021745741FBE735A000A0B4F /* CSPropertyManager+Control.m in Sources */,
+				021745761FBE735A000A0B4F /* CSPropertyManager+DatePicker.m in Sources */,
+				021745781FBE735A000A0B4F /* CSPropertyManager+ImageView.m in Sources */,
+				0217457A1FBE735A000A0B4F /* CSPropertyManager+Label.m in Sources */,
+				0217457C1FBE735A000A0B4F /* CSPropertyManager+PageControl.m in Sources */,
+				0217457E1FBE735A000A0B4F /* CSPropertyManager+ScrollView.m in Sources */,
+				021745801FBE735A000A0B4F /* CSPropertyManager+Slider.m in Sources */,
+				021745821FBE735A000A0B4F /* CSPropertyManager+Switch.m in Sources */,
+				021745841FBE735A000A0B4F /* CSPropertyManager+TableView.m in Sources */,
+				021745861FBE735A000A0B4F /* CSPropertyManager+TextField.m in Sources */,
+				021745881FBE735A000A0B4F /* CSPropertyManager+View.m in Sources */,
+				0217458A1FBE735A000A0B4F /* CSPropertyManager+Webview.m in Sources */,
+				0217458C1FBE735A000A0B4F /* CSPropertyManager+Window.m in Sources */,
+				0217458E1FBE735A000A0B4F /* CSPropertyManager.m in Sources */,
+				0217456E1FBE7342000A0B4F /* UIView+CSAddBlock.m in Sources */,
+				021745701FBE7342000A0B4F /* UIView+CSCreation.m in Sources */,
+				021744BC1FBDF0D9000A0B4F /* ViewController.m in Sources */,
+				021744C71FBDF0D9000A0B4F /* main.m in Sources */,
+				021744B91FBDF0D9000A0B4F /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		021744C81FBDF0D9000A0B4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				021744D11FBDF0D9000A0B4F /* CSViewPropertyChainableTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		021744D31FBDF0D9000A0B4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				021744DC1FBDF0D9000A0B4F /* CSViewPropertyChainableUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		021744CE1FBDF0D9000A0B4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 021744B31FBDF0D9000A0B4F /* CSViewPropertyChainable */;
+			targetProxy = 021744CD1FBDF0D9000A0B4F /* PBXContainerItemProxy */;
+		};
+		021744D91FBDF0D9000A0B4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 021744B31FBDF0D9000A0B4F /* CSViewPropertyChainable */;
+			targetProxy = 021744D81FBDF0D9000A0B4F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		021744BD1FBDF0D9000A0B4F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				021744BE1FBDF0D9000A0B4F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		021744C21FBDF0D9000A0B4F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				021744C31FBDF0D9000A0B4F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		021744DE1FBDF0D9000A0B4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		021744DF1FBDF0D9000A0B4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		021744E11FBDF0D9000A0B4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CSViewPropertyChainable/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KCS.CSViewPropertyChainable;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		021744E21FBDF0D9000A0B4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CSViewPropertyChainable/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KCS.CSViewPropertyChainable;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		021744E41FBDF0D9000A0B4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CSViewPropertyChainableTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KCS.CSViewPropertyChainableTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CSViewPropertyChainable.app/CSViewPropertyChainable";
+			};
+			name = Debug;
+		};
+		021744E51FBDF0D9000A0B4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CSViewPropertyChainableTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KCS.CSViewPropertyChainableTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CSViewPropertyChainable.app/CSViewPropertyChainable";
+			};
+			name = Release;
+		};
+		021744E71FBDF0D9000A0B4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CSViewPropertyChainableUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KCS.CSViewPropertyChainableUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CSViewPropertyChainable;
+			};
+			name = Debug;
+		};
+		021744E81FBDF0D9000A0B4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CSViewPropertyChainableUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KCS.CSViewPropertyChainableUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CSViewPropertyChainable;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		021744AF1FBDF0D8000A0B4F /* Build configuration list for PBXProject "CSViewPropertyChainable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				021744DE1FBDF0D9000A0B4F /* Debug */,
+				021744DF1FBDF0D9000A0B4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		021744E01FBDF0D9000A0B4F /* Build configuration list for PBXNativeTarget "CSViewPropertyChainable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				021744E11FBDF0D9000A0B4F /* Debug */,
+				021744E21FBDF0D9000A0B4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		021744E31FBDF0D9000A0B4F /* Build configuration list for PBXNativeTarget "CSViewPropertyChainableTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				021744E41FBDF0D9000A0B4F /* Debug */,
+				021744E51FBDF0D9000A0B4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		021744E61FBDF0D9000A0B4F /* Build configuration list for PBXNativeTarget "CSViewPropertyChainableUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				021744E71FBDF0D9000A0B4F /* Debug */,
+				021744E81FBDF0D9000A0B4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 021744AC1FBDF0D8000A0B4F /* Project object */;
+}
